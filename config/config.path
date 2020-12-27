@@ -1,0 +1,7 @@
+root = "/home/wk/GameServerPro/skynet/"
+pro_root = "/home/wk/skynetPros/MyGameServer/"
+luaservice = root.."service/?.lua;"..pro_root.."service/?.lua"
+lualoader = root .. "lualib/loader.lua"
+lua_path = root.."lualib/?.lua;"..root.."lualib/?/init.lua"
+lua_cpath = root .. "luaclib/?.so"
+snax = root.."examples/?.lua;"..root.."test/?.lua"
